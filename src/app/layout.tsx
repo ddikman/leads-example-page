@@ -22,6 +22,9 @@ export default function RootLayout({
             {children}
           </div>
         </main>
+        <footer className='flex justify-center mb-2 font-mono text-sm gap-2'>
+          <a href="https://github.com/ddikman/leads-example-page" target='_blank'>GitHub</a>|<span>By <a href="https://www.greycastle.se" target="_blank">David Dikman</a></span>
+        </footer>
       </body>
     </html>
   )
