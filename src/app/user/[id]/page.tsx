@@ -47,8 +47,11 @@ export default async function Page({params} : { params: { id: string }}) {
   const user = await getUser(params.id);
   return <div>
     <div className="flex flex-row justify-between profile">
-      <div><span className="name">{ user.name }</span>, <span className="role">{ user.role }</span></div>
-      <Link href={`mailto:${user.email}`}>@contact</Link>
+      <div className="flex flex-col">
+        <span className="name text-lg">{ user.name }</span>
+        <span className="role">{ user.role }</span>
+      </div>
+      <Link href={`mailto:${user.email}`}>@email</Link>
     </div>
     <hr className="my-4 border-black border-dashed" />
     <div>Posts</div>

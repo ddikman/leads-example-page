@@ -25,3 +25,9 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+a {color: #7975dd;}
+
+a:hover {
+  color: rgb(var(--foreground-rgb));
+}
