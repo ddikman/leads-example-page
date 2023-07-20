@@ -1,0 +1,102 @@
+[
+  {
+    "name": "Alice Johnson",
+    "email": "alice.johnson@example.com",
+    "role": "Front-end Developer"
+  },
+  {
+    "name": "Bob Smith",
+    "email": "bob.smith@example.com",
+    "role": "Back-end Developer"
+  },
+  {
+    "name": "Eva Martinez",
+    "email": "eva.martinez@example.com",
+    "role": "UI/UX Designer"
+  },
+  {
+    "name": "Alex Turner",
+    "email": "alex.turner@example.com",
+    "role": "Software Engineer"
+  },
+  {
+    "name": "Linda Clark",
+    "email": "linda.clark@example.com",
+    "role": "Data Scientist"
+  },
+  {
+    "name": "Jack Roberts",
+    "email": "jack.roberts@example.com",
+    "role": "Mobile App Developer"
+  },
+  {
+    "name": "Sophie Lee",
+    "email": "sophie.lee@example.com",
+    "role": "DevOps Engineer"
+  },
+  {
+    "name": "William White",
+    "email": "william.white@example.com",
+    "role": "Software Architect"
+  },
+  {
+    "name": "Olivia Adams",
+    "email": "olivia.adams@example.com",
+    "role": "Product Manager"
+  },
+  {
+    "name": "Michael Brown",
+    "email": "michael.brown@example.com",
+    "role": "Machine Learning Engineer"
+  },
+  {
+    "name": "Emma Garcia",
+    "email": "emma.garcia@example.com",
+    "role": "Game Developer"
+  },
+  {
+    "name": "Daniel Wilson",
+    "email": "daniel.wilson@example.com",
+    "role": "Security Analyst"
+  },
+  {
+    "name": "Grace Allen",
+    "email": "grace.allen@example.com",
+    "role": "Database Administrator"
+  },
+  {
+    "name": "Thomas Hernandez",
+    "email": "thomas.hernandez@example.com",
+    "role": "Front-end Developer"
+  },
+  {
+    "name": "Ava Turner",
+    "email": "ava.turner@example.com",
+    "role": "Back-end Developer"
+  },
+  {
+    "name": "Henry Scott",
+    "email": "henry.scott@example.com",
+    "role": "UI/UX Designer"
+  },
+  {
+    "name": "Elizabeth Walker",
+    "email": "elizabeth.walker@example.com",
+    "role": "Software Engineer"
+  },
+  {
+    "name": "Josephine Miller",
+    "email": "josephine.miller@example.com",
+    "role": "Data Scientist"
+  },
+  {
+    "name": "Matthew Hill",
+    "email": "matthew.hill@example.com",
+    "role": "Mobile App Developer"
+  },
+  {
+    "name": "Emily Wood",
+    "email": "emily.wood@example.com",
+    "role": "DevOps Engineer"
+  }
+]
