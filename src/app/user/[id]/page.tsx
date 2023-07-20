@@ -46,7 +46,7 @@ async function getUser(id: string) : Promise<User> {
 export default async function Page({params} : { params: { id: string }}) {
   const user = await getUser(params.id);
   return <div>
-    <div className="flex flex-row justify-between">
+    <div className="flex flex-row justify-between profile">
       <div><span className="name">{ user.name }</span>, <span className="role">{ user.role }</span></div>
       <Link href={`mailto:${user.email}`}>@contact</Link>
     </div>
