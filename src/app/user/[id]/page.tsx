@@ -2,6 +2,7 @@ import path from 'path';
 import fs from 'fs/promises';
 import PostCard, { Post } from '../../post_card';
 import Link from 'next/link';
+import Image from 'next/image';
 
 async function getPosts() : Promise<Post[]> {
   const jsonDirectory = path.join(process.cwd(), 'data');
@@ -47,9 +48,12 @@ export default async function Page({params} : { params: { id: string }}) {
   const user = await getUser(params.id);
   return <div>
     <div className="flex flex-row justify-between profile">
-      <div className="flex flex-col">
-        <span className="name text-lg">{ user.name }</span>
-        <span className="role">{ user.role }</span>
+      <div className="flex flex-row gap-4">
+        <Image className="rounded-full shadow-md" width="48" height="48" alt={`Profile picture for ${user.name}`} src={`/${params.id}.png`} />
+        <div className="flex flex-col">
+          <span className="name text-lg">{ user.name }</span>
+          <span className="role">{ user.role }</span>
+        </div>
       </div>
       <Link href={`mailto:${user.email}`}>@email</Link>
     </div>
